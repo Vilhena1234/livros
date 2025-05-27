@@ -1,0 +1,121 @@
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #8B5E3B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Seção da capa do livro */
+.book-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.book-cover {
+    max-width: 280px;
+    border-radius: 5px;
+}
+
+/* Texto */
+.text-content {
+    flex: 2;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.text-content h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.text-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Botões */
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #8B5E3B;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #6D4628;
+}
+
+/* Botão Voltar */
+.voltar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8B5E3B;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    background-color: #6D4628;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .book-cover {
+        margin-bottom: 20px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+}
