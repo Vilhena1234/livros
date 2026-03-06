@@ -3,31 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O Silêncio do Amor - Detalhes</title>
-    <link rel="stylesheet" href="detalhes.css"> 
+    <title>O Silêncio do Amor</title>
+    <meta name="description" content="Página da obra O Silêncio do Amor, de Luís Vilhena.">
+    <link rel="stylesheet" href="detalhes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <!-- Botão Voltar -->
-    <a href="index.html?from=detalhe" class="voltar">← Voltar</a>
-
-    <!-- Título -->
-    <h1>O Silêncio do Amor</h1>
-
-    <!-- Conteúdo -->
-    <div class="container">
-        <img src="img/o silencio do amor.webp" alt="Capa do Livro" class="book-cover">
-        
-        <div class="text-content">
-            <h2>Excerto do Livro</h2>
-            <p>"Em tua luz que procurou tudo o que não encontraste e me fez ver tudo aquilo a que não pertencia..."</p>
-            
-            <div class="buttons">
-                <a href="https://www.wook.pt/livro/o-silencio-do-amor-luis-vilhena/24253399" class="btn" target="_blank">Comprar</a>
-                <a href="https://www.youtube.com/watch?v=XXXXX" class="btn" target="_blank">Assistir ao Vídeo</a>
-            </div>
+    <main class="page-wrapper">
+        <div class="top-bar">
+            <a href="index.html?from=detalhe" class="voltar"> Voltar</a>
         </div>
-    </div>
 
+        <header class="page-header">
+            <span class="page-label">Obra Publicada</span>
+            <h1>O Silêncio do Amor</h1>
+            <p class="page-subtitle">
+                Uma viagem poética pelas emoções, pelos afetos e pela verdade do amor.
+            </p>
+        </header>
+
+        <section class="container">
+            <aside class="book-card">
+                <img src="img/o silencio do amor.webp" alt="Capa do livro O Silêncio do Amor" class="book-cover" loading="lazy">
+
+                <div class="book-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">Género</span>
+                        <span class="meta-value">Poesia</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Autor</span>
+                        <span class="meta-value">Luís Vilhena</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Tema</span>
+                        <span class="meta-value">Amor e Vida</span>
+                    </div>
+                </div>
+            </aside>
+
+            <article class="text-card">
+                <h2>Sobre a Obra</h2>
+
+                <p>
+                    <em>O Silêncio do Amor</em> é um livro inspirado no afeto e no amor,
+                    conduzindo o leitor por uma dimensão poética onde a natureza, a beleza
+                    da vida e os sentimentos se cruzam de forma intensa.
+                </p>
+
+                <p>
+                    O autor procura descrever um dos mais belos sentimentos humanos, tocando
+                    o coração do leitor através de uma linguagem simples, sensível e próxima.
+                    O amor surge aqui refletido na natureza, no sonho, na pureza e no tempo
+                    que dedicamos a amar.
+                </p>
+
+                <p>
+                    Ao longo da obra, as palavras silenciam e despertam os corações para a
+                    verdade da vida, atravessando inquietações, tensões, pulsações e emoções
+                    profundas.
+                </p>
+
+                <div class="quote-box">
+                    “A única coisa que me faz viver é o Amor e por ele quero morrer.”
+                </div>
+
+                <div class="buttons">
+                    <a href="https://www.wook.pt/livro/o-silencio-do-amor-luis-vilhena/24253399" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Comprar</a>
+                    <a href="https://www.youtube.com/watch?v=XXXXX" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Assistir ao Vídeo</a>
+                </div>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
